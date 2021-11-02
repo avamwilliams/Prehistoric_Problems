@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44095AF12731BE8B00566ACE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44095AF02731BE8B00566ACE /* AppDelegate.swift */; };
+		44095AF32731BE8B00566ACE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44095AF22731BE8B00566ACE /* SceneDelegate.swift */; };
+		44095AF52731BE8B00566ACE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44095AF42731BE8B00566ACE /* ViewController.swift */; };
+		44095AF82731BE8B00566ACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44095AF62731BE8B00566ACE /* Main.storyboard */; };
+		44095AFA2731BE8C00566ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44095AF92731BE8C00566ACE /* Assets.xcassets */; };
+		44095AFD2731BE8C00566ACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44095AFB2731BE8C00566ACE /* LaunchScreen.storyboard */; };
+		44095B082731BE8C00566ACE /* Prehistoric_ProblemsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44095B072731BE8C00566ACE /* Prehistoric_ProblemsTests.swift */; };
+		44095B132731BE8C00566ACE /* Prehistoric_ProblemsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44095B122731BE8C00566ACE /* Prehistoric_ProblemsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44095B042731BE8C00566ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44095AE52731BE8B00566ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44095AEC2731BE8B00566ACE;
+			remoteInfo = "Prehistoric Problems";
+		};
+		44095B0F2731BE8C00566ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44095AE52731BE8B00566ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44095AEC2731BE8B00566ACE;
+			remoteInfo = "Prehistoric Problems";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44095AED2731BE8B00566ACE /* Prehistoric Problems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prehistoric Problems.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44095AF02731BE8B00566ACE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44095AF22731BE8B00566ACE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44095AF42731BE8B00566ACE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44095AF72731BE8B00566ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44095AF92731BE8C00566ACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44095AFC2731BE8C00566ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44095AFE2731BE8C00566ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44095B032731BE8C00566ACE /* Prehistoric ProblemsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prehistoric ProblemsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44095B072731BE8C00566ACE /* Prehistoric_ProblemsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prehistoric_ProblemsTests.swift; sourceTree = "<group>"; };
+		44095B092731BE8C00566ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44095B0E2731BE8C00566ACE /* Prehistoric ProblemsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prehistoric ProblemsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44095B122731BE8C00566ACE /* Prehistoric_ProblemsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prehistoric_ProblemsUITests.swift; sourceTree = "<group>"; };
+		44095B142731BE8C00566ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44095AEA2731BE8B00566ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44095B002731BE8C00566ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44095B0B2731BE8C00566ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44095AE42731BE8B00566ACE = {
+			isa = PBXGroup;
+			children = (
+				44095AEF2731BE8B00566ACE /* Prehistoric Problems */,
+				44095B062731BE8C00566ACE /* Prehistoric ProblemsTests */,
+				44095B112731BE8C00566ACE /* Prehistoric ProblemsUITests */,
+				44095AEE2731BE8B00566ACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44095AEE2731BE8B00566ACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44095AED2731BE8B00566ACE /* Prehistoric Problems.app */,
+				44095B032731BE8C00566ACE /* Prehistoric ProblemsTests.xctest */,
+				44095B0E2731BE8C00566ACE /* Prehistoric ProblemsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44095AEF2731BE8B00566ACE /* Prehistoric Problems */ = {
+			isa = PBXGroup;
+			children = (
+				44095AF02731BE8B00566ACE /* AppDelegate.swift */,
+				44095AF22731BE8B00566ACE /* SceneDelegate.swift */,
+				44095AF42731BE8B00566ACE /* ViewController.swift */,
+				44095AF62731BE8B00566ACE /* Main.storyboard */,
+				44095AF92731BE8C00566ACE /* Assets.xcassets */,
+				44095AFB2731BE8C00566ACE /* LaunchScreen.storyboard */,
+				44095AFE2731BE8C00566ACE /* Info.plist */,
+			);
+			path = "Prehistoric Problems";
+			sourceTree = "<group>";
+		};
+		44095B062731BE8C00566ACE /* Prehistoric ProblemsTests */ = {
+			isa = PBXGroup;
+			children = (
+				44095B072731BE8C00566ACE /* Prehistoric_ProblemsTests.swift */,
+				44095B092731BE8C00566ACE /* Info.plist */,
+			);
+			path = "Prehistoric ProblemsTests";
+			sourceTree = "<group>";
+		};
+		44095B112731BE8C00566ACE /* Prehistoric ProblemsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44095B122731BE8C00566ACE /* Prehistoric_ProblemsUITests.swift */,
+				44095B142731BE8C00566ACE /* Info.plist */,
+			);
+			path = "Prehistoric ProblemsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44095AEC2731BE8B00566ACE /* Prehistoric Problems */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44095B172731BE8C00566ACE /* Build configuration list for PBXNativeTarget "Prehistoric Problems" */;
+			buildPhases = (
+				44095AE92731BE8B00566ACE /* Sources */,
+				44095AEA2731BE8B00566ACE /* Frameworks */,
+				44095AEB2731BE8B00566ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prehistoric Problems";
+			productName = "Prehistoric Problems";
+			productReference = 44095AED2731BE8B00566ACE /* Prehistoric Problems.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44095B022731BE8C00566ACE /* Prehistoric ProblemsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44095B1A2731BE8C00566ACE /* Build configuration list for PBXNativeTarget "Prehistoric ProblemsTests" */;
+			buildPhases = (
+				44095AFF2731BE8C00566ACE /* Sources */,
+				44095B002731BE8C00566ACE /* Frameworks */,
+				44095B012731BE8C00566ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44095B052731BE8C00566ACE /* PBXTargetDependency */,
+			);
+			name = "Prehistoric ProblemsTests";
+			productName = "Prehistoric ProblemsTests";
+			productReference = 44095B032731BE8C00566ACE /* Prehistoric ProblemsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44095B0D2731BE8C00566ACE /* Prehistoric ProblemsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44095B1D2731BE8C00566ACE /* Build configuration list for PBXNativeTarget "Prehistoric ProblemsUITests" */;
+			buildPhases = (
+				44095B0A2731BE8C00566ACE /* Sources */,
+				44095B0B2731BE8C00566ACE /* Frameworks */,
+				44095B0C2731BE8C00566ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44095B102731BE8C00566ACE /* PBXTargetDependency */,
+			);
+			name = "Prehistoric ProblemsUITests";
+			productName = "Prehistoric ProblemsUITests";
+			productReference = 44095B0E2731BE8C00566ACE /* Prehistoric ProblemsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44095AE52731BE8B00566ACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					44095AEC2731BE8B00566ACE = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					44095B022731BE8C00566ACE = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 44095AEC2731BE8B00566ACE;
+					};
+					44095B0D2731BE8C00566ACE = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 44095AEC2731BE8B00566ACE;
+					};
+				};
+			};
+			buildConfigurationList = 44095AE82731BE8B00566ACE /* Build configuration list for PBXProject "Prehistoric Problems" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44095AE42731BE8B00566ACE;
+			productRefGroup = 44095AEE2731BE8B00566ACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44095AEC2731BE8B00566ACE /* Prehistoric Problems */,
+				44095B022731BE8C00566ACE /* Prehistoric ProblemsTests */,
+				44095B0D2731BE8C00566ACE /* Prehistoric ProblemsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44095AEB2731BE8B00566ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44095AFD2731BE8C00566ACE /* LaunchScreen.storyboard in Resources */,
+				44095AFA2731BE8C00566ACE /* Assets.xcassets in Resources */,
+				44095AF82731BE8B00566ACE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44095B012731BE8C00566ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44095B0C2731BE8C00566ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44095AE92731BE8B00566ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44095AF52731BE8B00566ACE /* ViewController.swift in Sources */,
+				44095AF12731BE8B00566ACE /* AppDelegate.swift in Sources */,
+				44095AF32731BE8B00566ACE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44095AFF2731BE8C00566ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44095B082731BE8C00566ACE /* Prehistoric_ProblemsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44095B0A2731BE8C00566ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44095B132731BE8C00566ACE /* Prehistoric_ProblemsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44095B052731BE8C00566ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44095AEC2731BE8B00566ACE /* Prehistoric Problems */;
+			targetProxy = 44095B042731BE8C00566ACE /* PBXContainerItemProxy */;
+		};
+		44095B102731BE8C00566ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44095AEC2731BE8B00566ACE /* Prehistoric Problems */;
+			targetProxy = 44095B0F2731BE8C00566ACE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44095AF62731BE8B00566ACE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44095AF72731BE8B00566ACE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44095AFB2731BE8C00566ACE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44095AFC2731BE8C00566ACE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44095B152731BE8C00566ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44095B162731BE8C00566ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44095B182731BE8C00566ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prehistoric Problems/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appDevWilliams.Prehistoric-Problems";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44095B192731BE8C00566ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prehistoric Problems/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appDevWilliams.Prehistoric-Problems";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44095B1B2731BE8C00566ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prehistoric ProblemsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appDevWilliams.Prehistoric-ProblemsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prehistoric Problems.app/Prehistoric Problems";
+			};
+			name = Debug;
+		};
+		44095B1C2731BE8C00566ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prehistoric ProblemsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appDevWilliams.Prehistoric-ProblemsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prehistoric Problems.app/Prehistoric Problems";
+			};
+			name = Release;
+		};
+		44095B1E2731BE8C00566ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prehistoric ProblemsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appDevWilliams.Prehistoric-ProblemsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prehistoric Problems";
+			};
+			name = Debug;
+		};
+		44095B1F2731BE8C00566ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prehistoric ProblemsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appDevWilliams.Prehistoric-ProblemsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prehistoric Problems";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44095AE82731BE8B00566ACE /* Build configuration list for PBXProject "Prehistoric Problems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44095B152731BE8C00566ACE /* Debug */,
+				44095B162731BE8C00566ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44095B172731BE8C00566ACE /* Build configuration list for PBXNativeTarget "Prehistoric Problems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44095B182731BE8C00566ACE /* Debug */,
+				44095B192731BE8C00566ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44095B1A2731BE8C00566ACE /* Build configuration list for PBXNativeTarget "Prehistoric ProblemsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44095B1B2731BE8C00566ACE /* Debug */,
+				44095B1C2731BE8C00566ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44095B1D2731BE8C00566ACE /* Build configuration list for PBXNativeTarget "Prehistoric ProblemsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44095B1E2731BE8C00566ACE /* Debug */,
+				44095B1F2731BE8C00566ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44095AE52731BE8B00566ACE /* Project object */;
+}
